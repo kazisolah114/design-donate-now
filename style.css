@@ -93,10 +93,12 @@
     border-radius: 5px;
     transition: .4s;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 .donate-sect .donation-ammount div:hover{
     color: #eb3f00;
     background: rgb(235, 63, 0, .5);
+    border: 2px solid #eb3f00;
     
 }
 .donate-sect div input {
