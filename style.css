@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-btn {
+    background: #FF5959;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section-header {
+    margin: 30px auto;
+    width: 55%;
+    text-align: center;
+}
+.section-header h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section-header p {
+    font-size: 17px;
+    color: #616161;
+}
+
+
+/* Banner SEction */
+.banner-sect{
+    background: red;
+    background-image: url('./images/donation11.jpg');
+    background-position: center  center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.banner-sect:after{
+    content: '';
+    left: 0;
+    top: 0;
+    background: rgb(17, 17, 17, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.banner-sect .banner-content {
+    padding: 15% 15%;
+    text-align: center;
+}
+.banner-sect .banner-content h1 {
+    color: #fff;
+    font-size: 60px;
+}
+.banner-sect .banner-content p {
+    color: #f5f5f5;
+    width: 70%;
+    margin: 30px auto;
+}
+.banner-sect .banner-content button{}
+
+
+/* Donation SEctor */
+.donate-sect {
+    padding: 60px  0;
+    text-align: center;
+}
+.donate-sect .donation-ammount {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 55px auto;
+}
+.donate-sect .donation-ammount div span {
+    
+}
+.donate-sect .donation-ammount div{
+    font-size: 30px;
+    font-weight: bold;
+    background: #ebebeb;
+    padding: 35px 28px;
+    color: #616161;
+    border-radius: 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+.donate-sect .donation-ammount div:hover{
+    color: #eb3f00;
+    background: rgb(235, 63, 0, .5);
+    
+}
+.donate-sect div input {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 65%;
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+
+/* Donate Plan */
+.donate-plan {
+    margin: 50px 0;
+}
+.donate-plan .plans {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+.donate-plan .plans .plan {
+    background: #FF59591A;
+    padding: 60px 20px;
+    border-radius: 5px;
+}
+.donate-plan .plans .plan:nth-child(1){
+    background: #4F9DA61A;
+}
+.donate-plan .plans .plan img{}
+.donate-plan .plans .plan h2 {
+    margin: 30px 0;
+}
+.donate-plan .plans .plan p {
+    font-size: 17px;
+    color: #616161;
+}
+
+
+/* Contribute sect */
+.contribute-sect {
+    margin: 120px 0;
+}
+.contribution {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contribution .contribute-cont {
+    width: 40%;
+}
+.contribution .contribute-cont h2 {
+    font-size: 37px;
+}
+.contribution .contribute-cont p {
+    margin-top: 20px;
+}
+.contribution .contribute-cont button {
+    margin-top: 20px;
+    width: 190px;
+}
+.contribution .contribute-img {
+    width: 50%;
+}
+.contribution .contribute-img img {
+    width: 85%;
+}
+
+
+/* Contribute 2 */
+.contribute-sect2 {
+    margin: 120px 0;
+}
+.contribution2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contribution2 .contribute-cont2 {
+    width: 50%;
+}
+.contribution2 .contribute-cont2 h2 {
+    font-size: 37px;
+}
+.contribution2 .contribute-cont2 p {
+    margin-top: 20px;
+}
+.contribution2 .contribute-cont2 button {
+    margin-top: 20px;
+    width: 190px;
+}
+.contribution2 .contribute-img2 {
+    width: 50%;
+}
+.contribution2 .contribute-img2 img {
+    width: 85%;
+}
+
+/* Update section */
+.update-sect{
+    margin: 100px 0;
+}
+.update-sect .notification {
+    display: block;
+    text-align: center;
+    background: #FFF4D6;
+    width: 50%;
+    margin: 30px auto;
+    padding: 75px 170px;
+
+}
+.update-sect .notification .mail-noti{}
+.update-sect .notification .mail-noti input[type="email"] {
+    border: none;
+    width: 200px;
+    height: 40px;
+    background: #D9D9D9;
+    padding: 0 10px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.update-sect .notification .mail-noti input[type="submit"] {
+    height: 40px;
+    width: 100px;
+    padding: 0 10px;
+    border: none;
+    background: #FF5959;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+
+/* footer */
+.my-footer {
+    background: #0B0D17;
+    padding: 50px 0;
+    text-align: center;
+}
+.my-footer span {
+    color: #fff;
+}
+.my-footer .bh{
+    font-family: 'Dancing Script', cursive;
+    color: tomato;
+    font-weight: bold;
+    font-size: 35px;
+}
