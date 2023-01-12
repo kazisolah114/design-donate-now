@@ -251,3 +251,78 @@
     font-weight: bold;
     font-size: 35px;
 }
+
+
+
+/* responsive */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .container {
+    width: 100%;
+}
+    .banner-sect{
+        height: 50%;
+    }
+    .banner-sect .banner-content {
+    padding: 15% 0%;
+}
+.banner-sect .banner-content h1 {
+    font-size: 35px;
+}
+    .section-header {
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
+}
+.donate-sect{
+    padding: 10px 20px;
+}
+    .donate-sect .donation-ammount {
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+.donate-sect .donation-ammount div {
+    padding: 35px 0px;
+}
+.donate-plan{
+    padding: 20px 10px;
+}
+.donate-plan .plans{
+    flex-direction: column;
+}
+.contribution {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 20px;
+}
+.contribution .contribute-cont {
+    width: 100%;
+}
+.contribution .contribute-img {
+    width: 100%;
+}
+.contribution2 {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.contribution2 .contribute-cont2 {
+    width: 100%;
+}
+.contribution2 .contribute-img2 {
+    width: 100%;
+}
+.update-sect .notification {
+    padding: 75px 97px;
+    text-align:center;
+
+}
+.update-sect .notification .mail-noti input[type="submit"] {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+}
